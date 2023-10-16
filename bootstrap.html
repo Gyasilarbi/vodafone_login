@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <nav class="container-fluid bg-dark" id="header">
+      <ul class="nav nav-tabs flex" role="tablist">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" data-bs-toggle="tab">Personal</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu1" class="nav-link" data-bs-toggle="tab">Business</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu2" class="nav-link" data-bs-toggle="tab">Explore Business</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="tab-content">
+      <nav id="home" class="container-fluid tab-pane active">
+        <a href="#" class="navbar-brand">
+          <img src="IMG_2472.PNG" alt="Vodafone Logo" style="width:80px;" class="rounded-pill">
+          <ul>
+            <li><a href="#" id="text-element" data-bs-toggle="tooltip" data-bs-target="#popup-div">Mobile</a></li>
+            <li><a href="#" data-toggle="tooltip">BroadBand</a></li>
+            <li><a href="#" data-toggle="tooltip">Vodafone Cash</a></li>
+            <li><a href="#" data-toggle="tooltip">My Vodafone</a></li>
+            <li><a href="#" data-toggle="tooltip">Help</a></li>
+          </ul>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="main" id="home">
+    <div class="container" style="margin-top: 100px;" id="main">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 style="font-size: 50px; font-weight: lighter;">Welcome to <br>My Vodafone.</h1>
+          <p>Pay for your postpaid bills and broadband services here.</p>
+          <button type="button" class="btn btn-danger" style="width: 100px;">Pay</button>
+          <hr style="color: black;">
+          <p>Experience My Vodafone on any device</p>
+          <div class="download">
+            <a href="#"><img src="Image.jpg" width="150px" height="53px"></a>
+            <a href="#"><img src="images.png" width="150px" height="53px"></a>
+            <a href="#"><img src="images-2.png" width="150px" height="53px" style="border-radius: 10px;"></a>
+          </div>
+          
+        </div>
+
+        <div class="col-lg-6">
+          <div class="login">
+            <div class="q">
+              <h2>Login</h2>
+            </div>
+
+            <form action="">
+            <div class="mb-3 mt-3">
+              <label for="typ" class="form-label">Select an account type:</label>
+              <select class="form-select" id="sel1" name="sellist1" style="height: 65px;">
+                <option>Individual</option>
+                <option>Company</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="usn" class="form-label">Username/User ID or Telephone Number:</label>
+              <input type="text" class="form-control" id="username" placeholder="vodafone123 or 0200000000" name="pswd">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="mb-3" style="margin-top: 20px;">
+              <input type="submit" name="submit" value="Login" class="btn btn-danger" style="width: 500px;">
+            </div>
+            </form>
+
+            <div class="w" style="text-align: center; margin-top: 15px;">
+              <p>Forward your password? <a href="#" style="color: red; text-decoration: none;"> Reset it here</a></p>
+              <hr>
+              <p>Don't have an account? <a href="#" style="color: red; text-decoration: none;"> Register Now</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
